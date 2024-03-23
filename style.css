@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    font-size: 30px;
+    font-style:oblique;
+    margin: 15px;
+    font-weight: bold;
+}
+
+.bgpic {
+    width: 100%;
+}
+
+.images{
+    border-radius: 25px;
+}
+
+.titles {
+    text-align: center;
+    color: red;
+    font-size: 85px;
+    margin: 10px;
+    font-style: italic;
+    
+}
+
+.container {
+    margin-top: 55px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerimg {
+    width: 100%;
+    border-radius: 25px;
+}
+
+.box {
+    margin: 40px;
+    width: 800px;
+    padding:10px;
+    text-align: center;
+    height: fit-content;
+    background-color: rgba(250, 240, 221, 0.985);
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.box_bride_info {
+    margin: 40px;
+    width: 800px;
+    height: fit-content;
+    padding: 15px;
+    background-color:rgba(250, 240, 221, 0.985);
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+}
+
+footer{
+    background-color: rgb(63, 65, 78);
+    height: 70px;
+    color: aliceblue;
+    padding: 50px;
+}
+
+.footertxt{
+    font-family:cursive;
+    text-align: center;
+    size: 60px;
+}
