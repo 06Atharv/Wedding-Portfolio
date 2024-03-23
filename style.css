@@ -50,7 +50,7 @@ p {
 
 .containerimg {
     width: 100%;
-    border-radius: 25px;
+    border-radius: 20px;
 }
 
 .box {
@@ -60,7 +60,7 @@ p {
     text-align: center;
     height: fit-content;
     background-color: rgba(250, 240, 221, 0.985);
-    border-radius: 30px;
+    border-radius: 25px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -70,21 +70,38 @@ p {
     width: 800px;
     height: fit-content;
     padding: 15px;
-    background-color:rgba(250, 240, 221, 0.985);
-    border-radius: 30px;
+    background-color:rgba(243, 234, 218, 0.985);
+    border-radius: 25px;
     text-align: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
 }
 
 footer{
     background-color: rgb(63, 65, 78);
-    height: 70px;
+    height: auto;
     color: aliceblue;
-    padding: 50px;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
 }
 
 .footertxt{
     font-family:cursive;
     text-align: center;
+    align-items: center;
     size: 60px;
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo_img{
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 15px;
 }
